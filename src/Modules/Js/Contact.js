@@ -13,8 +13,11 @@ const detaildata = [
 
 function Contact() {
     return (
-        <Fragment>
-            <div className="container">
+        <Fragment className="border">
+            <div className='container text-center bg-warning mt-2 rounded' style={{height:'10vh'}}>
+                <h1 className='lh-base text-white'> All Data</h1>
+            </div>
+            <div className="container mt-1">
                 <div className="row">
                     {detaildata.map((d) => {
                         return (
