@@ -7,6 +7,7 @@ import Header from './Modules/Js/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Modules/Js/Homepage';
 import Contact from './Modules/Js/Contact';
+import Counter from './Modules/Js/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path='Contact' element={<Contact/>}></Route>
     </Routes>
     </BrowserRouter>
+    <Counter></Counter>
   </React.StrictMode>
 );
 

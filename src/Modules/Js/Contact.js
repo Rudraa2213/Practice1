@@ -1,33 +1,31 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
+import mydata from './Mydetal';
 
-const detaildata = [
-    {
-        name: 'Rudraa',
-        address: 'Shivpur'
-    },
-    {
-        name:'vishal',
-        address:'shikandarpur'
-    }
-]
+
 
 function Contact() {
+    
+    const [sv,sf]=useState('https://4kwallpapers.com/images/walls/thumbs_3t/13012');
     return (
-        <Fragment className="border">
-            <div className='container text-center bg-warning mt-2 rounded' style={{height:'10vh'}}>
+        <Fragment>
+            <div className='container text-center bg-warning mt-2 rounded' style={{ height: '10vh' }}>
                 <h1 className='lh-base text-white'> All Data</h1>
             </div>
-            <div className="container mt-1">
+            <div className="container border border-3 p-5 mt-1">
                 <div className="row">
-                    {detaildata.map((d) => {
+                    {mydata.map((d) => {
                         return (
                             <Fragment>
-                                <div className="col-3">
+                                <div className="col-4 p-4" style={{boxSizing:'border-box'}}>
                                     <div className="card text-white bg-success mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div className="card-header">{d.name}</div>
+                                        <div className="card-header">Name: {d.name}</div>
                                         <div className="card-body">
-                                            <h5 className="card-title">{d.address}</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <img src={sv+".jpeg"} alt="nothing to show" width={'250vw'} />
+                                            <p className='card-text'><a className='text-decoration-none text-white' rel='noreferrer' target='_blank' href={d.url}>{d.url}</a> </p>
+                                            <h6 className="card-title">Tags: {d.tags}</h6>
+                                            <p className="card-text">Description: {d.description}</p>
+                                            <p className="card-text">Author: {d.author}</p>
+                                            <p className="card-text">Stars: {d.stars}</p>
                                         </div>
                                     </div>
                                 </div>
