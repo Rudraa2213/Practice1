@@ -17,9 +17,9 @@ root.render(
       <Route path='/' element={<Header></Header>}></Route>
       <Route path='homepage' element={<Homepage/>}></Route>
       <Route path='Contact' element={<Contact/>}></Route>
+      <Route path='State' element={<Counter></Counter>}></Route>
     </Routes>
     </BrowserRouter>
-    <Counter></Counter>
   </React.StrictMode>
 );
 
