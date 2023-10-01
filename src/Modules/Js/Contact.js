@@ -2,7 +2,6 @@ import React, { Fragment, useState } from 'react'
 import mydata from './Mydetal';
 
 
-
 function Contact() {
     let a = (1);
     const [svar, sfun] = useState(1);

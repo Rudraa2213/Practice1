@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Modules/Js/Homepage';
 import Contact from './Modules/Js/Contact';
 import Counter from './Modules/Js/Counter';
+import Myaxios from './Modules/Js/Myaxios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path='homepage' element={<Homepage/>}></Route>
       <Route path='Contact' element={<Contact/>}></Route>
       <Route path='State' element={<Counter></Counter>}></Route>
+      <Route path='Myax' element={<Myaxios></Myaxios>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

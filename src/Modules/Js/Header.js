@@ -22,6 +22,9 @@ function Header() {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="State">Hooks</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="Myax">Axios</Link>
+                                </li>
                                 <li className="nav-item dropdown">
                                     <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown
