@@ -9,6 +9,7 @@ import Homepage from './Modules/Js/Homepage';
 import Contact from './Modules/Js/Contact';
 import Counter from './Modules/Js/Counter';
 import Myaxios from './Modules/Js/Myaxios';
+import Myaxdetail from './Modules/Js/Myaxdetail';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <Route path='Contact' element={<Contact/>}></Route>
       <Route path='State' element={<Counter></Counter>}></Route>
       <Route path='Myax' element={<Myaxios></Myaxios>}/>
+      <Route path='Myax/data/:id' element={<Myaxdetail/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
