@@ -21,11 +21,11 @@ function Contact() {
                     {mydata.map((d) => {
                         return (
                             <Fragment>
-                                <div className="col-4 p-4" key={d.id} style={{ boxSizing: 'border-box' }}>
+                                <div className=" col-4 p-4" key={d.id} style={{ boxSizing: 'border-box' }}>
                                     <div className="card text-white bg-success mb-3" style={{ maxWidth: '18rem' }}>
                                         <div className="card-header">Name: {d.name}</div>
                                         <div className="card-body">
-                                            <img src={sv + svar + ".jpg"} alt="nothing to show" width={'250vw'} />
+                                            <img src={sv + svar + ".jpg"} className='img-fluid' alt="nothing to show" width={'250vw'} />
                                             <p className='card-text'><a className='text-decoration-none text-white' rel='noreferrer' target='_blank' href={d.url}>{d.url}</a> </p>
                                             <h6 className="card-title">Tags: {d.tags}</h6>
                                             <p className="card-text">Description: {d.description}</p>

@@ -10,6 +10,8 @@ import Contact from './Modules/Js/Contact';
 import Counter from './Modules/Js/Counter';
 import Myaxios from './Modules/Js/Myaxios';
 import Myaxdetail from './Modules/Js/Myaxdetail';
+import Errorpage from './Modules/Js/Errorpage';
+import Sign,{SigningIn} from './Modules/Js/Sign';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +24,9 @@ root.render(
       <Route path='State' element={<Counter></Counter>}></Route>
       <Route path='Myax' element={<Myaxios></Myaxios>}/>
       <Route path='Myax/data/:id' element={<Myaxdetail/>}/>
+      <Route path='Signup' element={<Sign/>}/>
+      <Route path='Signin' element={<SigningIn/>}/>
+      <Route path='*' element={<Errorpage/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
