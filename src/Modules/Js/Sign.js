@@ -5,7 +5,7 @@ function Sign() {
    <Fragment>
          <div class="container mt-2 p-4 bg-secondary rounded shadow">
         <h2 className='text-center'>Sign Up</h2>
-        <form className='fs-5'>
+        <form className='fs-5'git >
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name"/>
