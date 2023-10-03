@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom'
 
 function Header() {
@@ -40,8 +40,8 @@ function Header() {
                                 </li>
                             </ul>
                             <div className='d-flex justify-content-between'>
-                                <button className='btn btn-outline-dark'> 
-                                <Link className='text-decoration-none fw-bold text-white' to={'Signup'}>SignUp</Link>
+                                <button className='btn btn-outline-dark'>
+                                    <Link className='text-decoration-none fw-bold text-white' to={'Signup'}>SignUp</Link>
                                 </button>
                                 &nbsp;&nbsp;&nbsp;
                                 <button className="btn btn-outline-primary" type="submit">
@@ -52,6 +52,16 @@ function Header() {
                         </div>
                     </div>
                 </nav>
+                {/* Body Start */}
+                <div className="container-fluid" style={{ height: '85.5vh', backgroundImage: 'url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg")', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+                    <div className="row text-center pt-5">
+                        <h1 className='text-dark bg-transparent fw-bold' style={{fontSize:'6rem'}}>Hello Rudraa</h1>
+                        <p className='text-secondary fw-bold' style={{width:'30rem',marginLeft:'32vw'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi voluptate eos nemo, earum deserunt laudantium dolorem iure magnam soluta perferendis veniam quod placeat. Quia, aperiam! Veniam soluta debitis modi?
+                        Vel asperiores totam, officiis molestias nostrum ad reiciendis, mollitia earum numquam cum fuga! Necessitatibus adipisci doloremque qui consequuntur rerum, quas rem sed ratione animi quo commodi fuga, maxime perferendis eius!
+                        Architecto aut pariatur minus mollitia sint, tempora ratione molestias odit labore! Unde quos quasi quia placeat facilis, ut ex facere debitis molestiae incidunt omnis eius quod dolorem consequatur porro quis.
+                        Tenetur nemo deleniti voluptatibus? Minus, voluptas cum voluptate aperiam nesciunt ipsa provident nisi deserunt reiciendis fugit quo modi eaque corrupti! Dolorum corrupti aliquam porro rerum vitae similique nemo non doloremque?</p>
+                    </div>
+                </div>
             </div>
         </Fragment>
     )
