@@ -12,6 +12,10 @@ import Myaxios from './Modules/Js/Myaxios';
 import Myaxdetail from './Modules/Js/Myaxdetail';
 import Errorpage from './Modules/Js/Errorpage';
 import Sign,{SigningIn} from './Modules/Js/Sign';
+import Myservices from './Modules/Js/Myservices';
+import Repairmobilepage from './Modules/Js/Subrouting/Repairmobilepage';
+import Replacemobile from './Modules/Js/Subrouting/Replacemobile';
+import Buymobilepage from './Modules/Js/Subrouting/Buymobilepage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +30,12 @@ root.render(
       <Route path='Myax/data/:id' element={<Myaxdetail/>}/>
       <Route path='Signup' element={<Sign/>}/>
       <Route path='Signin' element={<SigningIn/>}/>
+      <Route path='myservice' element={<Myservices/>}>
+        <Route path='repairmob' element={<Repairmobilepage/>}></Route>
+        <Route path='replacemob' element={<Replacemobile/>}></Route>
+        <Route path='buymob' element={<Buymobilepage/>}></Route>
+        <Route path='*' element={<Errorpage/>}></Route>
+      </Route>
       <Route path='*' element={<Errorpage/>}/>
     </Routes>
     </BrowserRouter>

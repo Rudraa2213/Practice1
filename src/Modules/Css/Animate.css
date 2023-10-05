@@ -1,0 +1,33 @@
+.para{
+    animation-duration: 15s;
+    animation-name: parag;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
+@keyframes parag{
+    0%{
+        margin-left: -99%;
+    }
+    to {
+        margin-left: 99%;
+      }
+}
+.para1{
+    animation-duration: 15s;
+    animation-name: parag1;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes parag1{
+    0%{
+        margin-left: 99%;
+    }
+    to {
+        margin-left: -99%;
+      }
+}
