@@ -16,6 +16,7 @@ import Myservices from './Modules/Js/Myservices';
 import Repairmobilepage from './Modules/Js/Subrouting/Repairmobilepage';
 import Replacemobile from './Modules/Js/Subrouting/Replacemobile';
 import Buymobilepage from './Modules/Js/Subrouting/Buymobilepage';
+import Userdata from './Modules/Js/Subrouting/Userdata';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +35,7 @@ root.render(
         <Route path='repairmob' element={<Repairmobilepage/>}></Route>
         <Route path='replacemob' element={<Replacemobile/>}></Route>
         <Route path='buymob' element={<Buymobilepage/>}></Route>
+        <Route path='userdata' element={<Userdata/>}></Route>
         <Route path='*' element={<Errorpage/>}></Route>
       </Route>
       <Route path='*' element={<Errorpage/>}/>

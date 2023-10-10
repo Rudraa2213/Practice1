@@ -60,11 +60,11 @@ function Header() {
                 <div className="container-fluid" style={{ height: '85.5vh', backgroundImage: 'url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg")', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                     <div className="row text-center pt-5" style={{width:'98.5vw',overflow:'clip'}}>
                         <h1 className='text-dark bg-transparent fw-bold' style={{fontSize:'6rem'}}>Hello Rudraa</h1>
-                        <h5 className='text-secondary fw-bold para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi voluptate eos nemo, earum deserunt laudantium dolorem iure magnam </h5> 
-                        <h5 className='text-secondary fw-bold para1'>Quia, aperiam! Veniam soluta debitis modi? Vel asperiores totam, officiis molestias nostrum ad reiciendis, mollitia earum numquam cum fuga! </h5>
-                        <h5 className='text-secondary fw-bold para'>qui consequuntur rerum, quas rem sed ratione animi quo commodi fuga, maxime perferendis eius! Architecto aut pariatur minus mollitia sint, </h5> 
-                        <h5 className='text-secondary fw-bold para1'>Unde quos quasi quia placeat facilis, ut ex facere debitis molestiae incidunt omnis eius quod dolorem consequatur porro quis. Tenetur nemo deleniti</h5> 
-                        <h5 className='text-secondary fw-bold para'> Minus, voluptas cum voluptate aperiam nesciunt ipsa provident nisi deserunt reiciendis fugit quo modi eaque corrupti! Dolorum </h5>
+                        <p className='text-secondary fw-bold h5 para'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi voluptate eos nemo, earum deserunt laudantium dolorem iure magnam </p> 
+                        <p className='text-secondary fw-bold h5 para1'>Quia, aperiam! Veniam soluta debitis modi? Vel asperiores totam, officiis molestias nostrum ad reiciendis, mollitia earum numquam cum fuga! </p>
+                        <p className='text-secondary fw-bold h5 para'>qui consequuntur rerum, quas rem sed ratione animi quo commodi fuga, maxime perferendis eius! Architecto aut pariatur minus mollitia sint, </p> 
+                        <p className='text-secondary fw-bold h5 para1'>Unde quos quasi quia placeat facilis, ut ex facere debitis molestiae incidunt omnis eius quod dolorem consequatur porro quis. Tenetur nemo deleniti</p> 
+                        <p className='text-secondary fw-bold h5 para'> Minus, voluptas cum voluptate aperiam nesciunt ipsa provident nisi deserunt reiciendis fugit quo modi eaque corrupti! Dolorum </p>
                     </div>
                 </div>
             </div>

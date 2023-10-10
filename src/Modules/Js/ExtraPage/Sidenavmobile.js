@@ -21,6 +21,7 @@ function Sidenavmobile() {
                                     <li><Link to="replacemob" class="link-dark rounded">Replace</Link></li>
                                     <li><Link to="buymob" class="link-dark rounded">Buy</Link></li>
                                     <li><Link to="err" class="link-dark rounded">Error</Link></li>
+                                    <li><Link to="userdata" class="link-dark rounded">Userdata</Link></li>
                                 </ul>
                             </div>
                         </li>

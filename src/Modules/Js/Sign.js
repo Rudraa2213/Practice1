@@ -5,12 +5,13 @@ import {useForm} from 'react-hook-form';
 
 
 
+const myarray=[];
 function Sign() {
     const{register, handleSubmit,formState:{errors}}=useForm();
-
     const mysubmit=(alldata)=>{
-        console.log(alldata)
-
+        console.log(typeof(alldata))
+        myarray.push(alldata)
+    localStorage.setItem('userdatas',JSON.stringify(myarray))
     }
   return (
    <Fragment>
