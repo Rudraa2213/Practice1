@@ -5,7 +5,7 @@ function Userdata() {
 
     return (
         <Fragment>
-            <div className="container">
+            <div className="container p-2" style={{border:'.1rem dotted black',minHeight:'50vh'}}>
                 <div className="row">
                         {usersdata.map((d) => {
                             return (
@@ -13,10 +13,13 @@ function Userdata() {
                                 <div class="card text-white bg-primary mb-3">
                                     <div class="card-header">{d.Name}</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">Mobile: {d.Mobile}</h5>
-                                        <h5 class="card-title">Password: {d.Password}</h5>
+                                        <h6 class="card-title">Mobile: {d.Mobile}</h6>
+                                        <h6 class="card-title">Password: {d.Password}</h6>
                                         <p class="card-text">Email Address: {d.Email}</p>
                                         <p class="card-text">Message: {d.Message}</p>
+                                    </div>
+                                    <div className="card-footer">
+                                        {d.Message}
                                     </div>
                                 </div>
                     </div>

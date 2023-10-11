@@ -18,6 +18,9 @@ function Header() {
                                     <Link className="nav-link text-secondary fw-bold active" aria-current="page" to="homepage">HomePage</Link>
                                 </li>
                                 <li className="nav-item">
+                                    <Link className="nav-link text-secondary fw-bold " to="flowchart">Flowchart</Link>
+                                </li>
+                                <li className="nav-item">
                                     <Link className="nav-link text-secondary fw-bold " to="Contact">Contacts</Link>
                                 </li>
                                 <li className="nav-item">

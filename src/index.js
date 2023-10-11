@@ -17,6 +17,7 @@ import Repairmobilepage from './Modules/Js/Subrouting/Repairmobilepage';
 import Replacemobile from './Modules/Js/Subrouting/Replacemobile';
 import Buymobilepage from './Modules/Js/Subrouting/Buymobilepage';
 import Userdata from './Modules/Js/Subrouting/Userdata';
+import Flowchart from './Modules/Js/Flowchart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +27,7 @@ root.render(
       <Route path='/' element={<Header></Header>}></Route>
       <Route path='homepage' element={<Homepage/>}></Route>
       <Route path='Contact' element={<Contact/>}></Route>
+      <Route path='flowchart' element={<Flowchart/>}></Route>
       <Route path='State' element={<Counter></Counter>}></Route>
       <Route path='Myax' element={<Myaxios></Myaxios>}/>
       <Route path='Myax/data/:id' element={<Myaxdetail/>}/>
